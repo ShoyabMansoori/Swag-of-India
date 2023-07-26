@@ -44,12 +44,12 @@ async function loadProducts(productsListUrl) {
                     '<div class="col-xl-4 col-lg-4 col-md-6">' +
                     '  <div class="card single-productList-view" id="produclist' + product.id + '">' +
                     '    <div class="product-list-img">' +
-                    '      <img src="images/' + product.imageName + '.png" class="card-img-top" alt="Product Image">' +
+                    '      <a href="product-view.html"><img src="images/' + product.imageName + '.png" class="card-img-top" alt="Product Image"></a>' +
                     '      <div class="listproduct-hover hide show-icon">' +
                     '        <div class="container">' +
                     '          <div class="row">' +
                     '            <div class="col-4">' +
-                    '              <img src="images/cart.png" alt="">' +
+                    '              <a href="cart.html"><img src="images/cart.png" alt=""></a>' +
                     '            </div>' +
                     '            <div class="col-4">' +
                     '             <img src="images/view.png" alt="">' +
