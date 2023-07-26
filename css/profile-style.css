@@ -1,0 +1,58 @@
+.profile div{
+    /* border: 1px solid black; */
+}
+
+.profile .container-fluid{
+    margin-top: 30px;
+}
+.profile .profile-side-nav .nav-item{
+    margin-top: 5px;
+}
+.profile .profile-side-nav li{
+    padding: 0px 0px;
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    /* background-color: rgb(0, 0, 0); */
+}
+.profile .profile-side-nav h4{
+    color: black;
+    font-weight: bold;
+    margin: 10px 0px;
+
+}
+.profile .profile-side-nav li a{
+    color: rgb(120, 120, 120);
+    margin: 0;
+    padding: 0 0;
+    font-size: 15px;
+}
+.profile .profile-side-nav li a:hover{
+    background-color: orange;
+    font-weight: bold;
+    border-radius: 0%;
+    margin: 0 0;
+    color: rgb(255, 255, 255);
+}
+.profile-view{
+    margin-top: 16px;
+}
+.profile-view .profile-content p{
+    margin: 15px 5px;
+    color: rgb(101, 101, 101);
+}
+.profile-view .profile-content-view p{
+    margin: 15px 5px;
+    color: rgb(0, 0, 0);
+}
+.profile-view button{
+    background-color: orange;
+    padding: 7px 40px;
+    font-weight: bold;
+    color: white;
+    margin: 5% 13%;
+}
+.tab-content div h3{
+    color: orange;
+    font-weight: bold;
+
+}

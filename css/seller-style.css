@@ -1,0 +1,129 @@
+/* ***************saller page css*************** */
+.saller-page .container-fluid {
+    position: relative;
+    background-color: orangered;
+    height: 800px;
+}
+
+.saller-page .container-fluid .seller-registraction {
+    position: absolute;
+    height: 600px;
+    width: auto;
+    color: white;
+    top: 21px;
+    left: 10%;
+    padding: 15px;
+}
+
+.saller-page .container-fluid .details-small-icon img {
+    height: 50px;
+    width: 50px;
+    margin: 10px 15px;
+    background-color: white;
+    border-radius: 50%;
+    border: 1px solid black;
+    padding: 5px;
+}
+
+.saller-page .container-fluid .details-larg-icon h1 {
+    padding-top: 40%;
+    font-weight: bold;
+    font-size: 25px;
+}
+
+.saller-page .container-fluid .details-small-icon div {
+    text-align: center;
+    padding: 5px;
+}
+
+.saller-page .container-fluid .details-small-icon div p {
+    font-size: 10px;
+}
+
+/* seller  */
+.saller-page .registraction-form {
+    margin-left: 20px;
+    justify-content: center;
+}
+
+.saller-page .submit-button {
+    margin: 10px;
+    background-color: orangered;
+    text-align: center;
+}
+
+.saller-page .submit-button button {
+    color: white;
+    font-weight: bold;
+}
+
+.saller-page .call-mail-button {
+    margin-top: 10px;
+    background-color: black;
+    text-align: center;
+}
+
+.saller-page .call-mail-button button {
+    color: white;
+    font-size: 10px;
+    font-weight: bold;
+}
+
+.saller-page .registraction-form h1 {
+    padding: 11px 0;
+    background-color: black;
+    color: white;
+}
+
+.saller-page .registraction-form form {
+    padding: 10px;
+    background-color: white;
+    color: black;
+    margin-bottom: 10px;
+}
+
+.saller-page .registraction-form label {
+    padding: 5px;
+    font-size: 15px;
+    color: rgb(96, 96, 96);
+    margin-top: 10px;
+}
+
+.category-product .form-select {
+    margin-top: 10px;
+    align-items: center;
+    height: 40px;
+}
+
+.saller-page .container {
+    text-align: center;
+}
+
+.saller-page .container h1 {
+    color: #585858;
+    font-size: 1.5rem;
+    margin-top: 50px;
+    margin-bottom: 20px;
+}
+
+.saller-page .container img {
+    height: 150px;
+    width: 150px;
+}
+
+.saller-page .container p {
+    color: black;
+    font-size: 0.9rem;
+    margin: 15px 50px
+}
+
+.saller-page .container h4 {
+    color: black;
+    font-size: 1rem;
+    font-weight: bold;
+    margin: 10px 1px;
+}
+
+.padding20 {
+    padding: 20px;
+}

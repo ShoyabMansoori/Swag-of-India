@@ -1,0 +1,152 @@
+.cart-section .cart-top h2 {
+    color: orange;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.cart-section .cart-top a {
+    margin: 10px 20px;
+    color: rgb(0, 0, 0);
+}
+
+/* cart item css */
+.cart-item {
+    margin-bottom: 20px;
+}
+
+.cart-item img {
+    margin: 10px;
+}
+
+.cart-item .item-details {
+    margin: 10px 0;
+}
+
+.cart-item .item-details h3 {
+    font-size: 25px;
+    margin: 5px 0;
+    color: black;
+    font-weight: bold;
+}
+
+.cart-item .item-details p {
+    margin: 5px 0;
+    color: gray;
+    
+}
+
+.cart-item .form-selector .size {
+    background-color: #d5d5d5;
+    padding: 4px 10px;
+    border-radius: 8px;
+    margin-top: 20px;
+    margin-right: 20px;
+}
+.cart-item .form-selector .size select{
+    color: black;
+}
+
+.cart-item .form-selector .size #item-size {
+    background-color: #d5d5d5;
+    border: none;
+}
+
+.cart-item .form-selector .quantity {
+    background-color: #d5d5d5;
+    padding: 4px 10px;
+    border-radius: 8px;
+    margin-top: 20px;
+}
+
+.cart-item .form-selector .quantity #item-quantity {
+    background-color: #d5d5d5;
+    border: none;
+}
+.cart-item .form-selector .quantity select{
+    color: black;
+}
+
+.cart-item .prise {
+    margin: 10px 0;
+    font-weight: 600;
+    color: rgb(0, 0, 0);
+}
+
+.cart-item .discount {
+    margin: 0 0;
+    text-decoration: line-through;
+    color: rgb(254, 0, 0);
+}
+
+.cart-item .off {
+    margin: 10px 0;
+    font-weight: 600;
+    color: rgb(255, 178, 54);
+}
+
+.cart-item .delivery {
+    margin: 20px 0;
+    color: gray;
+}
+
+.cart-item .item-button button {
+    color: black;
+    background-color: transparent;
+    font-weight: bold;
+    margin: 10px 29px;
+}
+
+/* coupon */
+.coupon .coupon-top h3 {
+    font-size: 25px;
+    color: black;
+    font-weight: bold;
+    margin: 10px 0;
+}
+
+.coupon .coupon-top img {
+    margin: 10px 6px;
+}
+.coupon .coupon-top a{
+    background-color: orange;
+    padding: 9px 16px;
+    color: white;
+    font-weight: bold;
+    margin-bottom: 10px;
+    margin-left: 20px;
+    border-radius: 7px;
+    text-decoration: none;
+}
+.coupon .coupon-top button {
+    padding: 4px 21px;
+    font-weight: bold;
+    margin-left: 53px;
+    margin-bottom: 10px;
+}
+
+.coupon .coupon-details h4 {
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+    margin: 10px 0;
+}
+.coupon .coupon-details p {
+    color: #5c5c5c;
+    font-size: 16px;
+    margin: 10px 0;
+}
+
+.coupon .coupon-bottom {
+    margin: 10px 0;
+}
+.coupon .coupon-bottom a{
+    background-color: orange;
+    padding: 9px 16px;
+    color: white;
+    font-weight: bold;
+    border-radius: 7px;
+    text-decoration: none;
+}
+
+.coupon .coupon-bottom h4{
+    margin: 25px 0;
+}

@@ -1,0 +1,160 @@
+/* *****breadcrumb***** */
+.breadcrumb {
+    margin-left: 20px;
+    color: red;
+}
+
+.product-list-area .breadcrumb {
+    background-color: #eaeaea;
+    padding: 10px 5px;
+    color: black;
+}
+
+/* .product-list-img css*/
+
+.product-list-area .list-hadding {
+    font-size: 20px;
+    font-weight: bold;
+    color: black;
+    margin: 20px 0px;
+}
+
+.product-list-area .properties-button a {
+    color: rgb(129, 129, 129);
+}
+
+.aside-nav nav {
+    margin: 20px 10px;
+}
+
+.aside-nav nav a {
+    color: black;
+    font-weight: bold;
+}
+
+.tab-content .card {
+    margin: 20px 10px;
+
+}
+
+.single-productList-view:hover {
+    box-shadow: 2px 2px 3px orange;
+    ;
+}
+
+.card .product-list-img .card-img-top {
+    position: relative;
+
+}
+
+
+.product-list-img .new-product span {
+    position: absolute;
+    color: white;
+    top: 17px;
+    left: 20px;
+    background-color: red;
+    padding: 3px 11px;
+    border-radius: 100%;
+    opacity: 1;
+}
+
+.product-list-img .listproduct-hover img {
+    bottom: 150px;
+    height: 50px;
+    width: 50px;
+    position: absolute;
+    opacity: 999;
+}
+
+.listproduct-hover img:hover {
+    padding: -5px 30px;
+    box-shadow: 3px 1px 6px orange;
+    border-radius: 30px;
+}
+
+/* .card-body css*/
+
+.card-body {
+    opacity: 1;
+}
+
+.card-body h4 a {
+    color: black;
+    font-weight: bold;
+    text-decoration: none;
+    margin: 10px 0px;
+}
+
+.listProduct-price div a {
+    text-decoration: none;
+    color: black;
+    font-weight: 600;
+    margin: 5px 2px;
+}
+
+.listProduct-price .product-prise {
+    color: black;
+    font-weight: bold;
+}
+
+.listProduct-price {
+    margin: 10px 0;
+}
+
+.listProduct-price .product-discount {
+    text-decoration: line-through;
+    color: rgb(255, 0, 0);
+}
+
+.listProduct-price .product-off {
+    color: rgb(243, 102, 26);
+    font-weight: 700;
+}
+
+.card-body .listProduct-stars i {
+    margin: 10px 2px;
+}
+
+/* more button css*/
+
+.product-list-area .view-more-button button {
+    font-size: 15px;
+    font-weight: bold;
+    color: white;
+    background-color: orange;
+    padding: 7px 20px;
+    border-radius: 30px;
+    margin: 20px 0;
+}
+
+.product-list-area .view-more-button button:hover {
+    font-size: 15px;
+    font-weight: bold;
+    color: orange;
+    background-color: rgb(255, 255, 255);
+    padding: 7px 20px;
+    border: 1px solid black;
+    border-radius: 30px;
+    margin: 20px 0;
+}
+
+.single-productList-view:hover{
+    opacity: 0.2;
+}
+
+.single-productList-view:hover .listproduct-hover img{
+    visibility: visible;
+}
+
+.show {
+    visibility: visible;
+}
+
+.hide {
+    visibility: hidden;
+}
+
+.checked {
+    color: orange;
+}

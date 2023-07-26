@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- <title>Document</title> -->
+
+    <link rel="stylesheet" href="css/profile-style.css">
+    <!-- bootstrap css -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+</head>
+
+<body>
+    <!-- **********header section********** -->
+    <div id="main-header"></div>
+
+    <main>
+        <div class="profile">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-lg-2 col-md-3 col-sm-2">
+                        <div class="profile-side-nav">
+                            <ul class="nav flex-column">
+                                <h4>My account</h4>
+                                <li class="nav-item">
+                                    <img src="images/Image 161.png" alt="profile img" height="100px" width="100px">
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" id="nav-name-tab" href="#profile" data-bs-toggle="tab"
+                                        role="tab" aria-controls="name" aria-selected="false">Manikanda</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" id="nav-email-tab" href="#profile" data-bs-toggle="tab"
+                                        role="tab" aria-controls="changePassword"
+                                        aria-selected="false">mani2005.16@gmail.com</a>
+                                </li>
+
+                                <h4>Order</h4>
+                                <li class="nav-item">
+                                    <a class="nav-link" id="nav-myOrder-tab" href="#myOrder" data-bs-toggle="tab"
+                                        role="tab" aria-controls="myOrder" aria-selected="false">My Order</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" id="nav-trackOrder-tab" href="#trackOrder" data-bs-toggle="tab"
+                                        role="tab" aria-controls="trackOrder" aria-selected="false">Track Order</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" id="nav-returnOrder-tab" href="#returnOrder"
+                                        data-bs-toggle="tab" role="tab" aria-controls="returnOrder"
+                                        aria-selected="false">Returns Order</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" id="nav-cancelledOrder-tab" href="#cancelledOrder"
+                                        data-bs-toggle="tab" role="tab" aria-controls="cancelledOrder"
+                                        aria-selected="false">Cancelled Order</a>
+                                </li>
+
+                                <h4>Account</h4>
+                                <li class="nav-item">
+                                    <a class="nav-link active" id="nav-profile-tab" href="#profile" data-bs-toggle="tab"
+                                        role="tab" aria-controls="profile" aria-selected="true">Profile</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" id="nav-saveAddress-tab" href="#saveAddress"
+                                        data-bs-toggle="tab" role="tab" aria-controls="saveAddress"
+                                        aria-selected="false">Save Address</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" id="nav-saveCard-tab" href="#saveCard" data-bs-toggle="tab"
+                                        role="tab" aria-controls="saveCard" aria-selected="false">Save Card</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" id="nav-changePassword-tab" href="#changePassword"
+                                        data-bs-toggle="tab" role="tab" aria-controls="changePassword"
+                                        aria-selected="false">Change Password</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" id="nav-wishlist-tab" href="#wishlist" data-bs-toggle="tab"
+                                        role="tab" aria-controls="wishlist" aria-selected="false">Wishlist</a>
+                                </li>
+
+                                <h4>Payment</h4>
+                                <li class="nav-item">
+                                    <a class="nav-link" id="nav-phonepe-tab" href="#phonepe" data-bs-toggle="tab"
+                                        role="tab" aria-controls="phonepe" aria-selected="false">PhonePe</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" id="nav-giftCard-tab" href="#giftCard" data-bs-toggle="tab"
+                                        role="tab" aria-controls="giftCard" aria-selected="false">Gift Card</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" id="nav-debitCard-tab" href="#debitCard" data-bs-toggle="tab"
+                                        role="tab" aria-controls="debitCard" aria-selected="false">Debit Card</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" id="nav-creditCard-tab" href="#creditCard" data-bs-toggle="tab"
+                                        role="tab" aria-controls="creditCard" aria-selected="false">Credit Card</a>
+                                </li>
+                            </ul>
+                        </div>
+
+                    </div>
+                    <div class="col-lg-10 col-md-9 col-sm-10">
+                        <div class="tab-content" id="nav-tabcontent">
+                            <!-- order  -->
+                            <div class="tab-pane fade" id="myOrder" role="tabpanel" aria-labelledby="nav-myOrder-tab">
+                                <h3>My order</h3>
+                                <hr>
+                                <div>...</div>
+                            </div>
+                            <div class="tab-pane fade" id="trackOrder" role="tabpanel"
+                                aria-labelledby="nav-trackOrder-tab">
+                                <h3>track Order</h3>
+                                <hr>
+                                <div>...</div>
+                            </div>
+                            <div class="tab-pane fade" id="returnOrder" role="tabpanel"
+                                aria-labelledby="nav-returnOrder-tab">
+                                <h3>return Order</h3>
+                                <hr>
+                                <div>...</div>
+                            </div>
+                            <div class="tab-pane fade" id="cancelledOrder" role="tabpanel"
+                                aria-labelledby="nav-cancelledOrder-tab">
+                                <h3>cancelled Order</h3>
+                                <hr>
+                                <div>...</div>
+                            </div>
+
+                            <!-- account  -->
+                            <div class="tab-pane fade show active" id="profile" role="tabpanel"
+                                aria-labelledby="changePassword-tab">
+                                <div class="profile-view">
+                                    <h3>my profile</h3>
+                                    <hr>
+                                    <div class="row">
+                                        <div class="col-lg-3 col-md-3 col-sm-3 col-6">
+                                            <div class="profile-content">
+                                                <p>Mobile</p>
+                                                <p>Full Name</p>
+                                                <p>Email Id</p>
+                                                <p>Gender</p>
+                                                <p>Date of Birth</p>
+                                                <p>Location</p>
+                                                <p>Alternate Mobile</p>
+                                                <p>Nickname</p>
+                                            </div>
+                                        </div>
+                                        <div class="col-lg-9 col-md-9 col-sm-9 col-6">
+                                            <div class="profile-content-view">
+                                                <p>9941243609</p>
+                                                <p>Manikanda</p>
+                                                <p>mani2005.16@gmail.com</p>
+                                                <p>Male</p>
+                                                <p>- not added -</p>
+                                                <p>- not added -</p>
+                                                <p>8941243609</p>
+                                                <p>- not added -</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <button class="btn">Edit</button>
+                                </div>
+                            </div>
+                            <div class="tab-pane fade" id="saveAddress" role="tabpanel"
+                                aria-labelledby="nav-saveAddress-tab">
+                                <h3>save Address</h3>
+                                <hr>
+                                <div>...</div>
+                            </div>
+                            <div class="tab-pane fade" id="saveCard" role="tabpanel" aria-labelledby="nav-saveCard-tab">
+                                <h3>save Card</h3>
+                                <hr>
+                                <div>...</div>
+                            </div>
+                            <div class="tab-pane fade" id="changePassword" role="tabpanel"
+                                aria-labelledby="nav-changePassword-tab">
+                                <h3>change Password</h3>
+                                <hr>
+                                <div>...</div>
+                            </div>
+                            <div class="tab-pane fade" id="wishlist" role="tabpanel" aria-labelledby="nav-wishlist-tab">
+                                <h3>wishlist</h3>
+                                <hr>
+                                <div>...</div>
+                            </div>
+                            <!-- payment  -->
+                            <div class="tab-pane fade" id="phonepe" role="tabpanel" aria-labelledby="nav-phonepe-tab">
+                                <h3>phonePe</h3>
+                                <hr>
+                                <div>...</div>
+                            </div>
+                            <div class="tab-pane fade" id="giftCard" role="tabpanel" aria-labelledby="nav-giftCard-tab">
+                                <h3>giftCard</h3>
+                                <hr>
+                                <div>...</div>
+                            </div>
+                            <div class="tab-pane fade" id="debitCard" role="tabpanel"
+                                aria-labelledby="nav-debitCard-tab">
+                                <h3>debitCard</h3>
+                                <hr>
+                                <div>...</div>
+                            </div>
+                            <div class="tab-pane fade" id="creditCard" role="tabpanel"
+                                aria-labelledby="nav-creditCard-tab">
+                                <h3>creditCard</h3>
+                                <hr>
+                                <div>...</div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <!-- **********Footer section********** -->
+    <div id="main-footer"></div>
+
+    <a href="" id="scrollup">
+        <i class="fa fa-arrow-up"> </i>
+    </a>
+
+    <!-- **********JavaScript bundle********** -->
+    <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js">
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
+        crossorigin="anonymous"></script>
+    <!-- **********custome.js file********** -->
+    <script type="text/javascript" src="./js/custom.js"></script>
+</body>
+
+</html>

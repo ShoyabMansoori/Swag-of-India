@@ -1,0 +1,204 @@
+/* *****breadcrumb***** */
+.breadcrumb {
+    margin-left: 20px;
+    color: red;
+}
+
+.profile-view .breadcrumb {
+    background-color: #eaeaea;
+    padding: 10px 5px;
+    color: black;
+}
+
+/* *****product image view*****  */
+.profile-product-view .big-img a img {
+    max-width: 600px;
+    margin: auto;
+}
+
+/* *****product details name, rating ,desc.. ,buy and add to cart*/
+.product-details h2 {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+    font-weight: bold;
+    padding: 10px 10px;
+}
+
+.product-details .stars i {
+    border: none;
+    padding: 5px 5px;
+    margin: 2px 2px;
+}
+
+.product-details p {
+    margin-left: 5px;
+    color: rgb(0, 128, 40);
+}
+
+.product-details .product-price ul {
+    padding: 10px 10px;
+}
+
+.product-price .prise {
+    font-weight: bold;
+    color: black;
+}
+
+.product-price .discount {
+    text-decoration: line-through;
+    margin-left: 10px;
+}
+
+.product-price .off {
+    color: rgb(217, 92, 24);
+    margin-left: 10px;
+    font-weight: 600;
+
+}
+
+.short-description h3{
+    padding-left: 5px;
+    color: rgb(0, 0, 0);
+    font-weight: 500;
+    margin-top: 25px;
+}
+.short-description p{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    color: rgb(74, 74, 74);
+}
+
+
+.product-details .size-qty h5 {
+    font-weight: bold;
+    margin: 10px 10px;
+    margin-top: 25px;
+}
+
+.product-details .size-qty a {
+    color: black;
+    border: 1px solid black;
+    padding: 10px 10px;
+    text-decoration: none;
+    border-radius: 50px;
+    margin: 5px 5px;
+}
+.size-qty a:hover{
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+}
+
+#myform {
+    text-align: start;
+    padding: 5px;
+}
+.qty {
+    width: 40px;
+    height: 25px;
+    text-align: center;
+}
+input.qtyplus { width:25px; height:25px;}
+input.qtyminus { width:25px; height:25px;}
+
+.product-details .buy-button button {
+    width: 30%;
+    height: 54px;
+    color: white;
+    background-color: orange;
+    border: none;
+    font-size: 13px;
+    font-weight: bold;
+    border-radius: 3px;
+    margin: 15px 9px;
+}
+.product-details .buy-button button:hover {
+    width: 30%;
+    height: 54px;
+    color: white;
+    background-color: rgb(182, 119, 0);
+    border: none;
+    font-size: 13px;
+    font-weight: bold;
+    border-radius: 3px;
+    margin: 15px 9px;
+}
+.buy-button{
+    margin-top: 30px;
+}
+.product-media-icons {
+    margin: 10px 10px;
+}
+.product-media-icons div i{
+    color: rgb(255, 255, 255);
+    background-color: black;
+    padding: 7px 9px;
+}
+.product-details .product-media-icons h5, .return-support h5{
+    font-size: 15px;
+    font-weight: 600;
+}
+
+.return-support,
+.return-support img {
+    margin: 10px 10px;
+}
+
+/* *****description nav tab***** */
+
+.nav-tabs .nav-link {
+    color: black;
+    font-weight: bold;
+}
+
+.nav-tabs .nav-link:hover {
+    color: orange;
+    font-weight: bold;
+}
+
+.view-description h2 {
+    margin: 10px 10px;
+    font-size: 16px;
+    font-weight: 600;
+    color: black;
+}
+.view-description p{
+    font-size: 10px;
+    margin: 10px 10px;
+}
+
+/* *****related product section*****  */
+
+.related-product-area .related-product-heading{
+    font-size: 20px;
+    font-weight: bold;
+    margin: 20px 20px;
+    color: black;
+}
+
+.related-product .product-view-img {
+    position: relative;
+}
+
+.product-view-hover .container .row div img {
+    bottom: 130px;
+    height: 50px;
+    width: 50px;
+    position: absolute;
+}
+.product-view-hover .container a img:hover{
+    box-shadow: 1px 1px 6px orange;
+    border-radius: 30px;
+}
+.card-body h4 a{
+    color: black;
+    font-weight: bold;
+}
+.card-body .product-price .prise,
+.card-body .product-price .discount,
+.card-body .product-price .off{
+   margin: 15px 3px;
+}
+
+.chacked {
+    color: orange;
+}
