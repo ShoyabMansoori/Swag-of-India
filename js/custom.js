@@ -1,24 +1,24 @@
 // adding header and footer
 
-// $(function () {
-//     $("#main-header").load("header.html");
-//     $("#main-footer").load("footer.html");
-// });
+$(function () {
+    $("#main-header").load("header.html");
+    $("#main-footer").load("footer.html");
+});
 
 // header and footer section
-$(document).ready(function () {
-    fetch('/header.html')
-        .then(response => response.text())
-        .then(function (headerHtml) {
-            $('#main-header').html(headerHtml);
-        });
+// $(document).ready(function () {
+//     fetch('/header.html')
+//         .then(response => response.text())
+//         .then(function (headerHtml) {
+//             $('#main-header').html(headerHtml);
+//         });
 
-    fetch('/footer.html')
-        .then(response => response.text())
-        .then(function (footerHtml) {
-            $('#main-footer').html(footerHtml);
-        });
-});
+//     fetch('/footer.html')
+//         .then(response => response.text())
+//         .then(function (footerHtml) {
+//             $('#main-footer').html(footerHtml);
+//         });
+// });
 
 // hide arrow
 document.getElementById("scrollup").classList.add("hide");
